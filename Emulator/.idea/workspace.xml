@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="SS_Emulator" targetName="SS_Emulator" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b83c5aa4-f820-464c-a240-afa790a1c507" name="Default" comment="directory structure changed" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/Emulator/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-472151987">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="44" />
+          <entry key="project.open.time.0" value="15" />
+          <entry key="project.open.time.1" value="18" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="1" />
+          <entry key="SS_Emulator (disassembly)" value="29" />
+          <entry key="cpp" value="70" />
+          <entry key="h" value="120" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="Disassembly" value="29" />
+          <entry key="ObjectiveC" value="190" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="10991" />
+          <entry key="h" value="6446" />
+          <entry key="mm" value="194" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="17631" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="518988937">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="2" />
+          <entry key="h" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="6" />
+          <entry key="h" value="7" />
+          <entry key="txt" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="ObjectiveC" value="13" />
+          <entry key="PLAIN_TEXT" value="49" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Emulator/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Linker/ObjFileReader.h" />
+        <option value="$PROJECT_DIR$/Linker/SymbolNotExists.h" />
+        <option value="$PROJECT_DIR$/Linker/FixPositionOutsideOfSection.h" />
+        <option value="$PROJECT_DIR$/Linker/SectionManager.h" />
+        <option value="$PROJECT_DIR$/Linker/SectionManager.cpp" />
+        <option value="$PROJECT_DIR$/TransferObjects/ProgramInput.h" />
+        <option value="$PROJECT_DIR$/Loader/SegmentationFault.h" />
+        <option value="$PROJECT_DIR$/Linker/GlobalSymbolManager.h" />
+        <option value="$PROJECT_DIR$/Linker/GlobalSymbolManager.cpp" />
+        <option value="$PROJECT_DIR$/Linker/Linker.h" />
+        <option value="$PROJECT_DIR$/Linker/LinkerStructs.h" />
+        <option value="$PROJECT_DIR$/Linker/CodeGenerator.h" />
+        <option value="$PROJECT_DIR$/Linker/CodeGenerator.cpp" />
+        <option value="$PROJECT_DIR$/Emulator/InstructionInformation.h" />
+        <option value="$PROJECT_DIR$/Emulator/BadOperationCodeError.h" />
+        <option value="$PROJECT_DIR$/Emulator/BadConditionError.h" />
+        <option value="$PROJECT_DIR$/Emulator/WrongDstOperandError.h" />
+        <option value="$PROJECT_DIR$/Emulator/OperationExecuter.h" />
+        <option value="$PROJECT_DIR$/Tests/OperationExecuterTests.h" />
+        <option value="$PROJECT_DIR$/Tests/OperationExecuterTests.cpp" />
+        <option value="$PROJECT_DIR$/Emulator/OperandDecoder.h" />
+        <option value="$PROJECT_DIR$/Emulator/Emulator.h" />
+        <option value="$PROJECT_DIR$/Emulator/InstructionInfo.h" />
+        <option value="$PROJECT_DIR$/Emulator/Exceptions/InstructionError.h" />
+        <option value="$PROJECT_DIR$/System/System.h" />
+        <option value="$PROJECT_DIR$/System/System.cpp" />
+        <option value="$PROJECT_DIR$/Loader/Loader.h" />
+        <option value="$PROJECT_DIR$/Emulator/InstructionDecoder.h" />
+        <option value="$PROJECT_DIR$/Emulator/InstructionDecoder.cpp" />
+        <option value="$PROJECT_DIR$/Emulator/OperandDecoder.cpp" />
+        <option value="$PROJECT_DIR$/Linker/Linker.cpp" />
+        <option value="$PROJECT_DIR$/Loader/Loader.cpp" />
+        <option value="$PROJECT_DIR$/Emulator/Emulator.cpp" />
+        <option value="$PROJECT_DIR$/Emulator/InterruptHandler.h" />
+        <option value="$PROJECT_DIR$/Loader/SegmentationFaultInLoader.h" />
+        <option value="$PROJECT_DIR$/Emulator/InterruptHandler.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Linker/Exceptions/LinkerException.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Emulator/DivisionWithZeroError.h" />
+        <option value="$PROJECT_DIR$/Emulator/OperationExecuter.cpp" />
+        <option value="$PROJECT_DIR$/commonTypes.h" />
+        <option value="$PROJECT_DIR$/Emulator/Exceptions/BadConditionError.h" />
+        <option value="$PROJECT_DIR$/Emulator/Exceptions/BadOperationCodeError.h" />
+        <option value="$PROJECT_DIR$/Emulator/Exceptions/DivisionWithZeroError.h" />
+        <option value="$PROJECT_DIR$/Emulator/Exceptions/WrongDstOperandError.h" />
+        <option value="$PROJECT_DIR$/Linker/Exceptions/FixPositionOutsideOfSection.h" />
+        <option value="$PROJECT_DIR$/Linker/Exceptions/GlobalSymbolAlreadyFound.h" />
+        <option value="$PROJECT_DIR$/Linker/Exceptions/StartSymbolMissing.h" />
+        <option value="$PROJECT_DIR$/Linker/Exceptions/SymbolNotExists.h" />
+        <option value="$PROJECT_DIR$/Emulator/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="297" />
+    <option name="y" value="-4" />
+    <option name="width" value="960" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SS_Emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SS Emulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="div&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Emulator/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Emulator" />
+      <recent name="$PROJECT_DIR$/Emulator/Exceptions" />
+      <recent name="$PROJECT_DIR$/Linker/Exceptions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SS_Emulator">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SS_Emulator" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../../../&quot;SS Project Tests&quot;/fourth/main.o ../../../&quot;SS Project Tests&quot;/fourth/intr.o ../../../&quot;SS Project Tests&quot;/fourth/obrada.o" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SS_Emulator" TARGET_NAME="SS_Emulator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SS_Emulator" RUN_TARGET_NAME="SS_Emulator">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.SS_Emulator" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b83c5aa4-f820-464c-a240-afa790a1c507" name="Default" comment="" />
+      <created>1534626923152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534626923152</updated>
+      <workItem from="1534626925218" duration="833000" />
+      <workItem from="1534630628989" duration="3772000" />
+      <workItem from="1534681061458" duration="667000" />
+      <workItem from="1534681871705" duration="16628000" />
+      <workItem from="1534746166813" duration="8033000" />
+      <workItem from="1534771219333" duration="1019000" />
+      <workItem from="1534772274167" duration="201000" />
+      <workItem from="1534772574308" duration="3423000" />
+      <workItem from="1534856017096" duration="2458000" />
+      <workItem from="1534858875264" duration="6064000" />
+      <workItem from="1534868402723" duration="2324000" />
+      <workItem from="1534877487480" duration="622000" />
+      <workItem from="1534889511785" duration="159000" />
+      <workItem from="1534890663162" duration="613000" />
+      <workItem from="1534893800127" duration="1748000" />
+      <workItem from="1534895562808" duration="288000" />
+      <workItem from="1534895957817" duration="340000" />
+      <workItem from="1534930962701" duration="19218000" />
+      <workItem from="1535023525749" duration="13426000" />
+      <workItem from="1535043512161" duration="11679000" />
+      <workItem from="1535108133228" duration="1975000" />
+      <workItem from="1535113651533" duration="488000" />
+      <workItem from="1535132951135" duration="2129000" />
+      <workItem from="1535190085616" duration="6123000" />
+      <workItem from="1535196441845" duration="2709000" />
+      <workItem from="1535214117966" duration="3751000" />
+      <workItem from="1535218529956" duration="99000" />
+      <workItem from="1535218885543" duration="638000" />
+      <workItem from="1535221793070" duration="1139000" />
+      <workItem from="1535223291088" duration="3104000" />
+      <workItem from="1535227963335" duration="645000" />
+      <workItem from="1535228622187" duration="140000" />
+      <workItem from="1535228777685" duration="1044000" />
+      <workItem from="1535229835451" duration="41000" />
+      <workItem from="1535229903041" duration="1248000" />
+      <workItem from="1535231436619" duration="454000" />
+      <workItem from="1535231927395" duration="192000" />
+      <workItem from="1535232134099" duration="2301000" />
+      <workItem from="1535265471049" duration="1930000" />
+      <workItem from="1535272270145" duration="5719000" />
+      <workItem from="1535278446965" duration="1603000" />
+      <workItem from="1535281344795" duration="1215000" />
+      <workItem from="1535283627644" duration="828000" />
+      <workItem from="1535284472024" duration="2704000" />
+      <workItem from="1535296696274" duration="2040000" />
+      <workItem from="1535307308404" duration="427000" />
+      <workItem from="1538942870771" duration="588000" />
+      <workItem from="1542720561978" duration="951000" />
+    </task>
+    <task id="LOCAL-00001" summary="SS emulator commit">
+      <created>1538943386809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538943386809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="directory structure changed">
+      <created>1542722250132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542722250132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139740000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18815717" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32864866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901832" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="CMake" order="10" weight="0.32864866" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32864866" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SS emulator commit" />
+    <MESSAGE value="directory structure changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="directory structure changed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Emulator/Linker/ObjFileReader.cpp</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Emulator.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="system-&gt;readPC()" language="ObjectiveC" />
+        <watch expression="system-&gt;readPSW()" language="ObjectiveC" />
+        <watch expression="system-&gt;readRegister(1)" language="ObjectiveC" />
+        <watch expression="CLOCKS_PER_SEC" language="ObjectiveC" />
+        <watch expression="system-&gt;readWordFromMemory(4)" language="ObjectiveC" />
+        <watch expression="!(((pswState &amp; OVERFLOW_BIT_MASK) ^ (pswState &amp; NEGATIVE_BIT_MASK)) ||                 (pswState &amp; ZERO_BIT_MASK))" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>system-&gt;readPC() == 538</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 4</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 2</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>!(((pswState &amp; OVERFLOW_BIT_MASK) ^ (pswState &amp; NEGATIVE_BIT_MASK)) ||                 (pswState &amp; ZERO_BIT_MASK))</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>system-&gt;readWordFromMemory(4)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>CLOCKS_PER_SEC</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>system-&gt;readRegister(1)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>system-&gt;readPSW()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>system-&gt;readPC()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>system-&gt;memory[503]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>system-&gt;memory[502]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(My_uInt16 )system-&gt;memory[502]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(unsigned char)(mask &amp; code)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TransferObjects/ProgramInput.cpp" />
+    <entry file="file:///usr/include/c++/7/bits/stl_iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="796" selection-start-line="796" selection-end-line="796" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/InstructionInformation.cpp" />
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/CodeGenerator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="94" selection-start-line="26" selection-start-column="94" selection-end-line="26" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/GlobalSymbolManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-512">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/GlobalSymbolManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/LinkerStructs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/ObjFileReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/ObjFileReader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/SectionManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/SectionManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OperationExecuterTests.cpp" />
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15162">
+          <caret line="798" selection-start-line="798" selection-end-line="798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/cmake-build-debug/CMakeFiles/TargetDirectories.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/OperationExecuterTests.h" />
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/OperationExecuter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Exceptions/InstructionError.h" />
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/OperandDecoder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Loader/Loader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/InstructionDecoder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/InstructionInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/CodeGenerator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Linker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/InstructionDecoder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/InterruptHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/OperandDecoder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/InterruptHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#42#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Linker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Emulator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Emulator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#106#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Loader/SegmentationFaultInLoader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/OperationExecuter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="139" column="48" selection-start-line="139" selection-start-column="48" selection-end-line="139" selection-end-column="48" />
+          <folding>
+            <element signature="e#42#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1081" selection-start-line="5" selection-start-column="1081" selection-end-line="5" selection-end-column="1081" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Loader/Loader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Exceptions/LinkerException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Exceptions/StartSymbolMissing.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Exceptions/SymbolNotExists.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/commonTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Exceptions/FixPositionOutsideOfSection.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/Linker/Exceptions/GlobalSymbolAlreadyFound.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Exceptions/DivisionWithZeroError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Exceptions/WrongDstOperandError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Exceptions/BadOperationCodeError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/RuntimeEmulator/Exceptions/BadConditionError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/System/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-583">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/System/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="112" lean-forward="true" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/TransferObjects/ProgramInput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Emulator/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
