@@ -1,0 +1,58 @@
+
+---Symbol Table---
+Symbol   Id   Global   Defined    Value   Section    Offset
+UND      0    0        1          0       UND        0
+.text    1    0        1          a       text       0
+a        2    1        0          0       UND        0
+b        3    1        0          0       UND        0
+
+#.ret.text
+0002 apsolute 0002
+0006 relative 0002
+000a apsolute 0003
+000e relative 0003
+0016 apsolute 0002
+001a relative 0002
+0022 apsolute 0003
+002a relative 0002
+002e apsolute 0003
+0032 apsolute 0003
+0040 apsolute 0002
+0044 relative 0002
+0048 apsolute 0002
+004c relative 0002
+0050 apsolute 0002
+0054 apsolute 0002
+0058 apsolute 0003
+005c apsolute 0002
+0060 relative 0002
+
+#.text
+10 f5 00 00
+30 35 fe ff
+0a 76 00 00
+0b b6 fe ff
+09 c1
+09 c5
+10 c9 00 00
+10 cd fe ff
+38 d5 05 00
+38 d9 00 00
+10 dd 14 00
+08 e2 fe ff
+00 d1 00 00
+20 f9 00 00
+00 fd 14 00
+20 f5 14 00
+08 e4
+10 e4 00 00
+10 e4 00 00
+00 ea 00 00
+00 ea 00 00
+00 ea 00 00
+10 ec 00 00
+10 ec 00 00
+f0 f5 00 00
+f0 c1 fe ff
+e0 e9
+00 f0

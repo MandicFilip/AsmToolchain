@@ -1,0 +1,230 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/AssemblerManager.h
+../Parser/Parser.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/Parser.h
+../Tables/SymbolTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h
+LocationCounter.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h
+../Tables/SectionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h
+../Tables/MnemonicTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/MnemonicTable.h
+../Tables/ConditionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/ConditionTable.h
+LabelHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LabelHandler.h
+DirectiveHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/DirectiveHandler.h
+CodeGenerator.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.h
+iostream
+-
+fstream
+-
+sstream
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+../Tables/SymbolTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h
+../Tables/SectionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/DirectiveHandler.h
+../TransferObjects/LineElements.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h
+../Tables/SymbolTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h
+../Tables/SectionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h
+LocationCounter.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h
+CodeGenerator.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LabelHandler.h
+string
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+../Tables/SymbolTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h
+LocationCounter.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h
+../Tables/SectionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h
+cstdint
+-
+bits/types.h
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OneOperandHandler.h
+OperandHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.h
+../TransferObjects/LineElements.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h
+LocationCounter.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h
+../Tables/SectionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h
+../Tables/SymbolTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h
+CodeGenerator.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.h
+../Tables/ConditionTable.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/ConditionTable.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/TwoOperandsHandler.h
+../TransferObjects/OperandObject.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/OperandObject.h
+OperandHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/ZeroOperandHandler.h
+OperandHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+cstdint
+-
+exception
+-
+cstring
+-
+cstdlib
+-
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/LineDecoder.h
+../TransferObjects/LineElements.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h
+ParserState.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserState.h
+string
+-
+OperandParser.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/OperandParser.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/OperandParser.h
+string
+-
+../TransferObjects/OperandObject.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/OperandObject.h
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/Parser.h
+fstream
+-
+iostream
+-
+../TransferObjects/LineElements.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h
+LineDecoder.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/LineDecoder.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserExceptions/EndOfFileException.h
+exception
+-
+../../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserState.h
+../TransferObjects/LineElements.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/ConditionTable.h
+string
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/MnemonicTable.h
+string
+-
+../CodeProcessor/OperandHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.h
+../CodeProcessor/ZeroOperandHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/ZeroOperandHandler.h
+../CodeProcessor/OneOperandHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OneOperandHandler.h
+../CodeProcessor/TwoOperandsHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/TwoOperandsHandler.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h
+string
+-
+vector
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h
+string
+-
+utility
+-
+vector
+-
+cstdint
+-
+cstring
+-
+fstream
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h
+string
+-
+vector
+-
+OperandObject.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/OperandObject.h
+iostream
+-
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/OperandObject.h
+string
+-
+cstdint
+-
+../CommonTypes/CommonTypeWrappers.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/main.cpp
+iostream
+-
+cstdlib
+-
+Parser/Parser.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/Parser.h
+Parser/ParserExceptions/EndOfFileException.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserExceptions/EndOfFileException.h
+CodeProcessor/LocationCounter.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h
+CodeProcessor/CodeGenerator.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.h
+CodeProcessor/AssemblerManager.h
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/AssemblerManager.h
+fstream
+-
+cmath
+-
+

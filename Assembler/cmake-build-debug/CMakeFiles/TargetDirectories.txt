@@ -1,0 +1,3 @@
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug/CMakeFiles/SS_project.dir

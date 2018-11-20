@@ -1,0 +1,19 @@
+.data
+a:
+.word 4
+b: .word 2
+
+.text
+
+fja:
+    moveq psw , 0
+    reteq
+
+main:
+    moveq r0, a
+    moveq r1, $b
+    muleq r1, r0
+    diveq r1, r0
+
+    jmpeq $fja
+    moveq r7, -1

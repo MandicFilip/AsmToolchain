@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c7aa5b4-8ad3-4f67-a23f-864d14ed6dc0" name="Default" comment="changed workspace.xml location" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/Assembler/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-984457420">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="37" />
+          <entry key="project.open.time.0" value="11" />
+          <entry key="project.open.time.1" value="23" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="37" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="499" />
+          <entry key="h" value="89" />
+          <entry key="txt" value="73" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="588" />
+          <entry key="PLAIN_TEXT" value="72" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="SS_project (disassembly)" value="1" />
+          <entry key="cpp" value="38" />
+          <entry key="h" value="78" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="Disassembly" value="1" />
+          <entry key="ObjectiveC" value="116" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1361372642">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="4" />
+          <entry key="h" value="24" />
+          <entry key="txt" value="335" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="20" />
+          <entry key="ObjectiveC" value="28" />
+          <entry key="PLAIN_TEXT" value="315" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="20" />
+          <entry key="h" value="46" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="66" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assembler/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Int16</find>
+      <find>__uint16_t</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="mandula8" />
+        <option value="mandula" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tests/ObjFileReader.h" />
+        <option value="$PROJECT_DIR$/Parser/LineDecoder.cpp" />
+        <option value="$PROJECT_DIR$/Parser/doOperandJob.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserExceptions/doOperandJob.h" />
+        <option value="$PROJECT_DIR$/assembly/AssemblyManager.cpp" />
+        <option value="$PROJECT_DIR$/Tables/SectionTable.h" />
+        <option value="$PROJECT_DIR$/assembly/Handlers/DirectiveHandler.cpp" />
+        <option value="$PROJECT_DIR$/Tables/SectionTable.cpp" />
+        <option value="$PROJECT_DIR$/assembly/Handlers/OperandHandlers/OperandHandler.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Parser/ParserState.cpp" />
+        <option value="$PROJECT_DIR$/assembly/OperandHandler.cpp" />
+        <option value="$PROJECT_DIR$/assembly/DirectiveHandler.cpp" />
+        <option value="$PROJECT_DIR$/assembly/LocationCounterTracer.h" />
+        <option value="$PROJECT_DIR$/assembly/LocationCounter.h" />
+        <option value="$PROJECT_DIR$/assembly/OperandHandler.h" />
+        <option value="$PROJECT_DIR$/assembly/DirectiveHandler.h" />
+        <option value="$PROJECT_DIR$/assembly/CodeGenerator.h" />
+        <option value="$PROJECT_DIR$/assembly/CodeGenerator.cpp" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/BadConditionIdentifierException.h" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/BadOperationCodeException.h" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/MissingSymbolException.h" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/NoneSectionException.h" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/SectionAlreadyDefinedException.h" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/SymbolAlreadyDefinedException.h" />
+        <option value="$PROJECT_DIR$/Tables/Exceptions/WrongSymbolThatRepresentsSectionException.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserExceptions/LineEndException.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserExceptions/EndOfFileException.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserErrors/BadOperandError.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserErrors/FileNotFoundError.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserErrors/TooManyOperandsError.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserErrors/UnknownSymbolFound.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserErrors/WrongSymbolFoundError.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/BadDstOperandException.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/BadInstructionSizeError.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/EndDirectiveFoundException.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/FailToCreateObjFileException.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/LabelDefinedInNoneSectionException.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/LCOverflowException.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/NegativeAlignmentException.h" />
+        <option value="$PROJECT_DIR$/assembly/Exceptions/WrongInfoPassedToDirectiveException.h" />
+        <option value="$PROJECT_DIR$/Parser/ParserState.h" />
+        <option value="$PROJECT_DIR$/CommonTypes/CommonTypeWrappers.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Tables/MnemonicTable.h" />
+        <option value="$PROJECT_DIR$/Tables/MnemonicTable.cpp" />
+        <option value="$PROJECT_DIR$/CodeProcessor/AssemblyManager.h" />
+        <option value="$PROJECT_DIR$/CodeProcessor/AssemblerManager.h" />
+        <option value="$PROJECT_DIR$/Tables/ConditionTable.cpp" />
+        <option value="$PROJECT_DIR$/Assembler/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Assembler/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="297" />
+    <option name="y" value="-4" />
+    <option name="width" value="960" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SS_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assembler" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SS_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="SS_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Assembler" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assembler/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assembler" />
+      <recent name="$PROJECT_DIR$/assembly" />
+      <recent name="$PROJECT_DIR$/Parser/ParserExceptions" />
+      <recent name="$PROJECT_DIR$/assembly/Exceptions" />
+      <recent name="$PROJECT_DIR$/Tables/Exceptions" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SS_project" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="0 ../../../&quot;SS Project Tests&quot;/second/intr.txt 500 ../../../&quot;SS Project Tests&quot;/second/main.txt 500 ../../../&quot;SS Project Tests&quot;/third/main.txt 0 ../../../&quot;SS Project Tests&quot;/third/intr.txt 500 ../../../&quot;SS Project Tests&quot;/fourth/main.txt 0 ../../../&quot;SS Project Tests&quot;/fourth/intr.txt 1000 ../../../&quot;SS Project Tests&quot;/fourth/obrada.txt" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SS_project" RUN_TARGET_NAME="SS_project" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SS_project" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SS_project" TARGET_NAME="SS_project" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/SS_project" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c7aa5b4-8ad3-4f67-a23f-864d14ed6dc0" name="Default" comment="" />
+      <created>1532522587334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532522587334</updated>
+      <workItem from="1532522589007" duration="8530000" />
+      <workItem from="1532684641550" duration="5492000" />
+      <workItem from="1532800457196" duration="7636000" />
+      <workItem from="1532858894440" duration="3637000" />
+      <workItem from="1532958763657" duration="20088000" />
+      <workItem from="1533028812480" duration="24681000" />
+      <workItem from="1533124791592" duration="11171000" />
+      <workItem from="1533215299498" duration="1981000" />
+      <workItem from="1533225722985" duration="7241000" />
+      <workItem from="1533297401605" duration="18311000" />
+      <workItem from="1533380010147" duration="9968000" />
+      <workItem from="1533457281332" duration="6452000" />
+      <workItem from="1533556032218" duration="21885000" />
+      <workItem from="1533665584827" duration="770000" />
+      <workItem from="1533676137501" duration="3513000" />
+      <workItem from="1533729730928" duration="8557000" />
+      <workItem from="1533808221612" duration="11119000" />
+      <workItem from="1533835652118" duration="12587000" />
+      <workItem from="1533937410969" duration="3365000" />
+      <workItem from="1533970362790" duration="15132000" />
+      <workItem from="1534005506647" duration="5850000" />
+      <workItem from="1534020551521" duration="5110000" />
+      <workItem from="1534067933783" duration="11904000" />
+      <workItem from="1534093525048" duration="9305000" />
+      <workItem from="1534155413147" duration="8434000" />
+      <workItem from="1534244259414" duration="7431000" />
+      <workItem from="1534266150142" duration="3513000" />
+      <workItem from="1534284045592" duration="1429000" />
+      <workItem from="1534331989221" duration="7495000" />
+      <workItem from="1534351987358" duration="3520000" />
+      <workItem from="1534415150026" duration="4133000" />
+      <workItem from="1534432343564" duration="7323000" />
+      <workItem from="1534453042785" duration="2204000" />
+      <workItem from="1534492765023" duration="18973000" />
+      <workItem from="1534588972954" duration="11659000" />
+      <workItem from="1534629156362" duration="1469000" />
+      <workItem from="1534681735160" duration="88000" />
+      <workItem from="1534681829079" duration="38000" />
+      <workItem from="1534763901133" duration="5135000" />
+      <workItem from="1534772251191" duration="20000" />
+      <workItem from="1534772478530" duration="93000" />
+      <workItem from="1534858730887" duration="141000" />
+      <workItem from="1534868242033" duration="158000" />
+      <workItem from="1534877474229" duration="10000" />
+      <workItem from="1534888598380" duration="908000" />
+      <workItem from="1534889673281" duration="985000" />
+      <workItem from="1534893500175" duration="294000" />
+      <workItem from="1534895552002" duration="8000" />
+      <workItem from="1534895853694" duration="102000" />
+      <workItem from="1534976769212" duration="619000" />
+      <workItem from="1535023234800" duration="272000" />
+      <workItem from="1535043035491" duration="470000" />
+      <workItem from="1535112989621" duration="656000" />
+      <workItem from="1535114142619" duration="872000" />
+      <workItem from="1535127102818" duration="1488000" />
+      <workItem from="1535211700345" duration="1834000" />
+      <workItem from="1535218036867" duration="489000" />
+      <workItem from="1535218632407" duration="237000" />
+      <workItem from="1535221734325" duration="53000" />
+      <workItem from="1535222936213" duration="352000" />
+      <workItem from="1535227756723" duration="201000" />
+      <workItem from="1535228610951" duration="6000" />
+      <workItem from="1535228767041" duration="7000" />
+      <workItem from="1535229825746" duration="7000" />
+      <workItem from="1535229880479" duration="19000" />
+      <workItem from="1535231423235" duration="10000" />
+      <workItem from="1535231916340" duration="7000" />
+      <workItem from="1535232121869" duration="7000" />
+      <workItem from="1535272253718" duration="10000" />
+      <workItem from="1535278432991" duration="7000" />
+      <workItem from="1535281335215" duration="6000" />
+      <workItem from="1535283531144" duration="93000" />
+      <workItem from="1535284462051" duration="6000" />
+      <workItem from="1538941171015" duration="1670000" />
+      <workItem from="1541413582796" duration="336000" />
+      <workItem from="1542204442511" duration="119000" />
+      <workItem from="1542712818910" duration="4385000" />
+    </task>
+    <task id="LOCAL-00001" summary="assembly project added">
+      <created>1534768466891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534768466891</updated>
+    </task>
+    <task id="LOCAL-00002" summary="assembly project added">
+      <created>1534769421018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534769421018</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor fixes in code generator">
+      <created>1534868379319</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534868379319</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed conversion from char* to std::string">
+      <created>1538941402491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538941402491</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changed some names in code">
+      <created>1538942012998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538942012998</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changed some type names">
+      <created>1538942236842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538942236842</updated>
+    </task>
+    <task id="LOCAL-00007" summary="deleted some comments and destructors">
+      <created>1538942592565</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538942592565</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed names for some classes and folders">
+      <created>1542714835072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542714835072</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added cast">
+      <created>1542715467502</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542715467502</updated>
+    </task>
+    <task id="LOCAL-00010" summary="code put in assembler directory">
+      <created>1542716539016</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542716539016</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changed .idea location">
+      <created>1542716990666</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542716990666</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changed workspace.xml location">
+      <created>1542720366030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542720366030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="334086000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19756502" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2918919" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32756758" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32864866" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32896176" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32896176" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32896176" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="assembly project added" />
+    <MESSAGE value="minor fixes in code generator" />
+    <MESSAGE value="fixed conversion from char* to std::string" />
+    <MESSAGE value="changed some names in code" />
+    <MESSAGE value="changed some type names" />
+    <MESSAGE value="deleted some comments and destructors" />
+    <MESSAGE value="changed names for some classes and folders" />
+    <MESSAGE value="added cast" />
+    <MESSAGE value="code put in assembler directory" />
+    <MESSAGE value="changed .idea location" />
+    <MESSAGE value="changed workspace.xml location" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed workspace.xml location" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>i == 5 &amp;&amp; k == 3</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 2</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>k == 5</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 2 &amp;&amp; k == 0</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 7</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 5</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 4 &amp;&amp; k == 2</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 3 &amp;&amp; k == 4</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 3 &amp;&amp; k == 2</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i == 2 k == 0</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>str.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>code</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>0x(code)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lineElements-&gt;getDirectiveInfo()[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>lineElements-&gt;getDirectiveInfo()-&gt;size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputs[1]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputs[2]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputs[1, 0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputs[2, 0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inputs[0]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OneOperandHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OneOperandHandler.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/DirectiveHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/DirectiveHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="254" column="37" selection-start-line="254" selection-start-column="37" selection-end-line="254" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/CodeGenerator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="42" column="90" selection-start-line="42" selection-start-column="90" selection-end-line="42" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/AssemblerManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/LabelHandler.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/BadConditionIdentifierException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/BadOperationCodeException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/MissingSymbolException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/NoneSectionException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/SectionAlreadyDefinedException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/WrongSymbolThatRepresentsSectionException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/LineEndException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/EndOfFileException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/doOperandJob.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/BadOperandError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/ParserError.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/UnknownSymbolFound.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/TooManyOperandsError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/FileNotFoundError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/WrongSymbolFoundError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/AsmException.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/BadDstOperandException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/BadInstructionSizeError.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/EndDirectiveFoundException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/FailToCreateObjFileException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/LabelDefinedInNoneSectionException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/LCOverflowException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/NegativeAlignmentException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/LineDecoder.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/Parser.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/OperandParser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/WrongInfoPassedToDirectiveException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/Parser.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/TwoOperandsHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CommonTypes/CommonTypeWrappers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/MnemonicTable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/AssemblerManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OperandHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OperandHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/ZeroOperandHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/TableException.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/SymbolAlreadyDefinedException.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/ConditionTable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/MnemonicTable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="35" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/SectionTable.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/CodeGenerator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assembler/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

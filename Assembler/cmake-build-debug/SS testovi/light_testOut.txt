@@ -1,0 +1,27 @@
+a 2 7
+.data a 4 6
+.text e 1a 5
+
+---Symbol Table---
+Symbol   Id   Global   Defined    Value   Section    Offset
+UND      0    0        1          0       UND        0
+.data    1    0        1          a       data       0
+.text    2    0        1          e       text       0
+a        3    0        1          a       data       0
+b        4    0        1          c       data       2
+fja      5    0        1          e       text       0
+main     6    0        1          14      text       6
+
+#ret.data
+
+#ret.text
+0008 apsolute 0001 
+000c relative 0001 
+0014 relative 0002 
+
+#.data
+04 00 02 00 
+#.text
+e0 34 00 00 e0 29 10 35 00 00 30 35 
+00 00 28 09 28 0d f0 01 fe ff e0 35 
+ff ff 

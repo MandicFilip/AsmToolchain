@@ -1,0 +1,13 @@
+.global a, b
+
+.text
+        .long 2
+        .long 2
+        .word -2
+        .long 2
+        .word -2
+        .long 2
+.data
+        .char 2
+        .char -2
+.end

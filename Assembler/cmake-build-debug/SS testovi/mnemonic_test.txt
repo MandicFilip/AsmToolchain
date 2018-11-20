@@ -1,0 +1,41 @@
+.global a, b
+
+.text
+    moval r0, a
+    moveq r1, $a
+    movne b, r2
+    movgt $b, r3
+
+    addal r0, r1
+    subal r0, r1
+    mulal r0, a
+    dival r0, $a
+
+    andal r1, r0[5]
+    oral r1, r0[b]
+    notal r0, *20
+    testal $a, r0
+
+    cmpal r0, &b
+
+    shlal r1, &b
+    shral r0, 20
+    moval r1, 20
+
+    pushal r0
+    pushal a
+    pushal $a
+    popal a
+    popal $a
+    popal a
+
+    callal a
+    callal b
+
+    jmpal a
+    jmpal $a
+
+    retal
+
+    iretal
+.end

@@ -1,0 +1,32 @@
+a 4 8
+.data a e 6
+.text 18 a 5
+.rodata 22 4 2
+.bss 26 8 6
+
+---Symbol Table---
+Symbol   Id   Global   Defined    Value   Section    Offset
+UND      0    0        1          0       UND        0
+.data    1    0        1          a       data       0
+.text    2    0        1          18      text       0
+.rodata  3    0        1          22      rodata     0
+.bss     4    0        1          26      bss        0
+a        5    1        1          c       data       2
+b        6    1        0          0       UND        0
+CONST    7    0        1          24      rodata     2
+
+#ret.data
+
+#ret.text
+0002 apsolute 0003 
+0006 relative 0005 
+
+#ret.rodata
+
+#.data
+04 00 02 00 00 00 00 00 00 00 00 00 
+00 00 
+#.text
+10 f5 02 00 10 c1 fe ff 28 f5 
+#.rodata
+00 00 

@@ -1,0 +1,154 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/CodeGenerator.h
+GlobalSymbolManager.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/GlobalSymbolManager.h
+LinkerStructs.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/LinkerStructs.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/GlobalSymbolManager.h
+string
+-
+vector
+-
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Linker.h
+string
+-
+vector
+-
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+ObjFileReader.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/ObjFileReader.h
+CodeGenerator.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/CodeGenerator.h
+SectionManager.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/SectionManager.h
+../TransferObjects/ProgramInput.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/TransferObjects/ProgramInput.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/LinkerStructs.h
+string
+-
+vector
+-
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/ObjFileReader.h
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+LinkerStructs.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/LinkerStructs.h
+string
+-
+vector
+-
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/SectionManager.h
+vector
+-
+LinkerStructs.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/LinkerStructs.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Loader/Loader.h
+../TransferObjects/ProgramInput.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/TransferObjects/ProgramInput.h
+../System/System.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Emulator.h
+../System/System.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h
+../TransferObjects/ProgramInput.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/TransferObjects/ProgramInput.h
+InstructionDecoder.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionDecoder.h
+OperandDecoder.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperandDecoder.h
+OperationExecuter.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperationExecuter.h
+InterruptHandler.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InterruptHandler.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionDecoder.h
+InstructionInfo.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionInfo.h
+vector
+-
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionInfo.h
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InterruptHandler.h
+../System/System.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h
+ctime
+-
+termios.h
+-
+unistd.h
+-
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperandDecoder.h
+../System/System.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h
+InstructionInfo.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionInfo.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperationExecuter.h
+InstructionInfo.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionInfo.h
+../System/System.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h
+vector
+-
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/TransferObjects/ProgramInput.h
+vector
+-
+../commonTypes.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+../Linker/LinkerStructs.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/LinkerStructs.h
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h
+cstdint
+-
+exception
+-
+cstring
+-
+cstdlib
+-
+
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/main.cpp
+iostream
+-
+Linker/Linker.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Linker.h
+RuntimeEmulator/OperationExecuter.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperationExecuter.h
+Loader/Loader.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Loader/Loader.h
+RuntimeEmulator/Emulator.h
+/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Emulator.h
+termios.h
+-
+sys/select.h
+-
+

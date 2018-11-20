@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SS_Emulator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SS_Emulator">
+				<Option output="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug/SS_Emulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 SS_Emulator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SS_Emulator/fast">
+				<Option output="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug/SS_Emulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 SS_Emulator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ Emulator/Emulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/CodeGenerator.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/CodeGenerator.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Exceptions/FixPositionOutsideOfSection.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Exceptions/GlobalSymbolAlreadyFound.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Exceptions/LinkerException.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Exceptions/StartSymbolMissing.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Exceptions/SymbolNotExists.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/GlobalSymbolManager.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/GlobalSymbolManager.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Linker.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/Linker.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/LinkerStructs.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/ObjFileReader.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/ObjFileReader.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/SectionManager.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Linker/SectionManager.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Loader/Loader.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Loader/Loader.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/Loader/SegmentationFaultInLoader.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Emulator.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Emulator.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Exceptions/BadConditionError.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Exceptions/BadOperationCodeError.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Exceptions/DivisionWithZeroError.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/Exceptions/WrongDstOperandError.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionDecoder.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionDecoder.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InstructionInfo.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InterruptHandler.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/InterruptHandler.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperandDecoder.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperandDecoder.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperationExecuter.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/RuntimeEmulator/OperationExecuter.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/System/System.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/TransferObjects/ProgramInput.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/commonTypes.h">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/main.cpp">
+			<Option target="SS_Emulator"/>
+		</Unit>
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS Emulator/Emulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

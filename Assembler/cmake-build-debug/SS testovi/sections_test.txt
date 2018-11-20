@@ -1,0 +1,17 @@
+.global a, b
+
+.data 
+    .word 4
+    a: .long 2
+    .skip 8
+.text
+    moval r0, CONST
+    addal r0, $a
+    moval r1, r0
+    
+.rodata
+.align 2
+CONST: .word 0
+
+.bss
+    .skip 8

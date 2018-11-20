@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b83c5aa4-f820-464c-a240-afa790a1c507" name="Default" comment="directory structure changed" />
+    <list default="true" id="b83c5aa4-f820-464c-a240-afa790a1c507" name="Default" comment="added some files to version control">
+      <change beforePath="$PROJECT_DIR$/Emulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Emulator/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/Emulator/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,13 +92,13 @@
         <counts>
           <entry key="cpp" value="6" />
           <entry key="h" value="7" />
-          <entry key="txt" value="49" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="13" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
     </session>
@@ -106,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Emulator/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="424">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -192,17 +194,27 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SS_Emulator" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SS_Emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SS Emulator" type="462c0819:PsiDirectoryNode" />
+              <item name="Emulator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +322,7 @@
       <workItem from="1535296696274" duration="2040000" />
       <workItem from="1535307308404" duration="427000" />
       <workItem from="1538942870771" duration="588000" />
-      <workItem from="1542720561978" duration="951000" />
+      <workItem from="1542720561978" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="SS emulator commit">
       <created>1538943386809</created>
@@ -326,15 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542722250132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added some files to version control">
+      <created>1542722662927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542722662927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139740000" />
+    <option name="totallyTimeSpent" value="141339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18815717" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -346,7 +364,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="CMake" order="10" weight="0.32864866" />
@@ -367,7 +385,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SS emulator commit" />
     <MESSAGE value="directory structure changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="directory structure changed" />
+    <MESSAGE value="added some files to version control" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some files to version control" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -786,8 +805,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Emulator/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="424">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
