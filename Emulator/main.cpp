@@ -1,8 +1,8 @@
 #include <iostream>
 #include "Linker/Linker.h"
-#include "Emulator/OperationExecuter.h"
+#include "RuntimeEmulator/OperationExecuter.h"
 #include "Loader/Loader.h"
-#include "Emulator/Emulator.h"
+#include "RuntimeEmulator/Emulator.h"
 #include <termios.h>
 #include <sys/select.h>
 

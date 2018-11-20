@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.10)
-project(SS_Emulator)
-
-set(CMAKE_CXX_STANDARD 11)
-
-add_executable(SS_Emulator main.cpp Linker/ObjFileReader.cpp Linker/ObjFileReader.h commonTypes.h Linker/Linker.cpp Linker/Linker.h Linker/SectionManager.cpp Linker/SectionManager.h Linker/LinkerStructs.h Linker/GlobalSymbolManager.cpp Linker/GlobalSymbolManager.h Linker/Exceptions/LinkerException.h Linker/Exceptions/GlobalSymbolAlreadyFound.h Linker/CodeGenerator.cpp Linker/CodeGenerator.h Linker/Exceptions/SymbolNotExists.h Linker/Exceptions/FixPositionOutsideOfSection.h Linker/Exceptions/StartSymbolMissing.h TransferObjects/ProgramInput.h System/System.cpp System/System.h Loader/Loader.cpp Loader/Loader.h Loader/SegmentationFaultInLoader.h Emulator/Emulator.cpp Emulator/Emulator.h Emulator/InterruptHandler.cpp Emulator/InterruptHandler.h Emulator/OperandDecoder.cpp Emulator/OperandDecoder.h Emulator/OperationExecuter.cpp Emulator/OperationExecuter.h Emulator/InstructionDecoder.cpp Emulator/InstructionDecoder.h Emulator/InstructionInfo.h Emulator/Exceptions/BadOperationCodeError.h Emulator/Exceptions/BadConditionError.h Emulator/Exceptions/WrongDstOperandError.h Emulator/Exceptions/DivisionWithZeroError.h)
