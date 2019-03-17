@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
   <component name="CMakeSettings">
@@ -9,7 +9,79 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c7aa5b4-8ad3-4f67-a23f-864d14ed6dc0" name="Default" comment="changed workspace.xml location" />
+    <list default="true" id="8c7aa5b4-8ad3-4f67-a23f-864d14ed6dc0" name="Default" comment="changed workspace.xml location">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/AssemblerManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/AssemblerManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/DirectiveHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/DirectiveHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/DirectiveHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/DirectiveHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/LabelHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/LabelHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/LabelHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/LabelHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/LocationCounter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/LocationCounter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/LocationCounter.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/LocationCounter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/OneOperandHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/OneOperandHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/OneOperandHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/OneOperandHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/OperandHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/OperandHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/OperandHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/OperandHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/TwoOperandsHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/TwoOperandsHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/TwoOperandsHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/TwoOperandsHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/ZeroOperandHandler.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/ZeroOperandHandler.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeProcessor/ZeroOperandHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/CodeProcessor/Handlers/ZeroOperandHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tables/MnemonicTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tables/MnemonicTable.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tables/MnemonicTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tables/MnemonicTable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/AssemblerManager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/AssemblerManager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/CodeGenerator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/CodeGenerator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/DirectiveHandler.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/LabelHandler.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/LocationCounter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/LocationCounter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/OneOperandHandler.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/OperandHandler.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/TwoOperandsHandler.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/CodeProcessor/ZeroOperandHandler.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/LineDecoder.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/LineDecoder.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/OperandParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/OperandParser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/Parser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/Parser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/ParserState.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Parser/ParserState.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/ConditionTable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/ConditionTable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/MnemonicTable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/MnemonicTable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/SectionTable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/SectionTable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/SymbolTable.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/Tables/SymbolTable.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/TransferObjects/LineElements.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/TransferObjects/LineElements.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/TransferObjects/OperandObject.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/TransferObjects/OperandObject.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SS_project.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SS_project" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SS_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SS_project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SS_project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/Assembler/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,99 +91,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="-984457420">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="37" />
-          <entry key="project.open.time.0" value="11" />
-          <entry key="project.open.time.1" value="23" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="37" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="499" />
-          <entry key="h" value="89" />
-          <entry key="txt" value="73" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="588" />
-          <entry key="PLAIN_TEXT" value="72" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="SS_project (disassembly)" value="1" />
-          <entry key="cpp" value="38" />
-          <entry key="h" value="78" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="Disassembly" value="1" />
-          <entry key="ObjectiveC" value="116" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1361372642">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="4" />
-          <entry key="h" value="24" />
-          <entry key="txt" value="335" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="20" />
-          <entry key="ObjectiveC" value="28" />
-          <entry key="PLAIN_TEXT" value="315" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpp" value="20" />
-          <entry key="h" value="46" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="66" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assembler/main.cpp">
+        <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/ZeroOperandHandler.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -131,18 +117,11 @@
         <option value="mandula" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Tests/ObjFileReader.h" />
-        <option value="$PROJECT_DIR$/Parser/LineDecoder.cpp" />
-        <option value="$PROJECT_DIR$/Parser/doOperandJob.h" />
-        <option value="$PROJECT_DIR$/Parser/ParserExceptions/doOperandJob.h" />
-        <option value="$PROJECT_DIR$/assembly/AssemblyManager.cpp" />
-        <option value="$PROJECT_DIR$/Tables/SectionTable.h" />
-        <option value="$PROJECT_DIR$/assembly/Handlers/DirectiveHandler.cpp" />
         <option value="$PROJECT_DIR$/Tables/SectionTable.cpp" />
         <option value="$PROJECT_DIR$/assembly/Handlers/OperandHandlers/OperandHandler.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
@@ -187,14 +166,15 @@
         <option value="$PROJECT_DIR$/Tables/ConditionTable.cpp" />
         <option value="$PROJECT_DIR$/Assembler/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Assembler/main.cpp" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/DirectiveHandler.h" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/DirectiveHandler.cpp" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/OperandHandler.cpp" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/OneOperandHandler.cpp" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/OperandHandler.h" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/TwoOperandsHandler.cpp" />
+        <option value="$PROJECT_DIR$/CodeProcessor/Handlers/ZeroOperandHandler.cpp" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="297" />
@@ -229,7 +209,13 @@
             <path>
               <item name="SS_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="Assembler" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="CodeProcessor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SS_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="CodeProcessor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Handlers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -239,18 +225,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assembler/CMakeLists.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CodeProcessor" />
+      <recent name="$PROJECT_DIR$/CodeProcessor/Handlers" />
       <recent name="$PROJECT_DIR$/Assembler" />
       <recent name="$PROJECT_DIR$/assembly" />
       <recent name="$PROJECT_DIR$/Parser/ParserExceptions" />
-      <recent name="$PROJECT_DIR$/assembly/Exceptions" />
-      <recent name="$PROJECT_DIR$/Tables/Exceptions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -360,6 +346,7 @@
       <workItem from="1541413582796" duration="336000" />
       <workItem from="1542204442511" duration="119000" />
       <workItem from="1542712818910" duration="4385000" />
+      <workItem from="1552854414644" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="assembly project added">
       <created>1534768466891</created>
@@ -449,27 +436,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334086000" />
+    <option name="totallyTimeSpent" value="335717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19756502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19977863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896176" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2918919" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29157668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32756758" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32721382" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32972974" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.32864866" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32829374" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -500,11 +487,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="assembly project added" />
     <MESSAGE value="minor fixes in code generator" />
     <MESSAGE value="fixed conversion from char* to std::string" />
@@ -625,324 +612,114 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OneOperandHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OneOperandHandler.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/DirectiveHandler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/DirectiveHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="254" column="37" selection-start-line="254" selection-start-column="37" selection-end-line="254" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/CodeGenerator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="42" column="90" selection-start-line="42" selection-start-column="90" selection-end-line="42" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/AssemblerManager.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/LabelHandler.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/BadConditionIdentifierException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/BadOperationCodeException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/MissingSymbolException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/NoneSectionException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/SectionAlreadyDefinedException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/WrongSymbolThatRepresentsSectionException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/LineEndException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/EndOfFileException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/doOperandJob.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/BadOperandError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/ParserError.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/UnknownSymbolFound.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/TooManyOperandsError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/FileNotFoundError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/WrongSymbolFoundError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/AsmException.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/BadDstOperandException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/BadInstructionSizeError.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/EndDirectiveFoundException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/FailToCreateObjFileException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/LabelDefinedInNoneSectionException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/LCOverflowException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/NegativeAlignmentException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/LineDecoder.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/Parser.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/OperandParser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserState.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/WrongInfoPassedToDirectiveException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Parser/Parser.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/TwoOperandsHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CommonTypes/CommonTypeWrappers.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/MnemonicTable.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/AssemblerManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OperandHandler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OperandHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/ZeroOperandHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/TableException.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/SymbolAlreadyDefinedException.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/ConditionTable.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/MnemonicTable.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="35" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/Tables/SectionTable.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/CodeGenerator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/WrongSymbolThatRepresentsSectionException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/LineEndException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/EndOfFileException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserExceptions/doOperandJob.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/BadOperandError.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/ParserError.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/UnknownSymbolFound.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/TooManyOperandsError.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/FileNotFoundError.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserErrors/WrongSymbolFoundError.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/AsmException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/BadDstOperandException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/BadInstructionSizeError.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/EndDirectiveFoundException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/FailToCreateObjFileException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/LabelDefinedInNoneSectionException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/LCOverflowException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/NegativeAlignmentException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/LineDecoder.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/Parser.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/OperandParser.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/ParserState.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/Exceptions/WrongInfoPassedToDirectiveException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Parser/Parser.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/TwoOperandsHandler.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CommonTypes/CommonTypeWrappers.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/MnemonicTable.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/AssemblerManager.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OperandHandler.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/OperandHandler.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/ZeroOperandHandler.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/TableException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/Exceptions/SymbolAlreadyDefinedException.h" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/ConditionTable.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/MnemonicTable.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/Tables/SectionTable.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CodeProcessor/CodeGenerator.cpp" />
+    <entry file="file://$PROJECT_DIR$/Assembler/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/Assembler/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assembler/main.cpp">
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/AssemblerManager.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/CodeGenerator.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/DirectiveHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/LocationCounter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/DirectiveHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-643">
+          <caret line="222" column="62" selection-start-line="222" selection-start-column="62" selection-end-line="222" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/LabelHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/OperandHandler.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/OneOperandHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/OperandHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/TwoOperandsHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="55" column="67" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodeProcessor/Handlers/ZeroOperandHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
         </state>
       </provider>
     </entry>

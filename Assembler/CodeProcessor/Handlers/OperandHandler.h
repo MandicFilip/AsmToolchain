@@ -6,12 +6,15 @@
 #define SS_PROJECT_OPERANDHANDLER_H
 
 
-#include "../TransferObjects/LineElements.h"
-#include "LocationCounter.h"
-#include "../Tables/SectionTable.h"
-#include "../Tables/SymbolTable.h"
-#include "CodeGenerator.h"
-#include "../Tables/ConditionTable.h"
+#include "../../TransferObjects/LineElements.h"
+#include "../LocationCounter.h"
+#include "../../Tables/SectionTable.h"
+#include "../../Tables/SymbolTable.h"
+#include "../CodeGenerator.h"
+#include "../../Tables/ConditionTable.h"
+
+const u_int16_t SMALL_INSTRUCTION_SIZE = 2;
+const u_int16_t LARGE_INSTRUCTION_SIZE = 4;
 
 class MnemonicTable;
 
@@ -48,7 +51,7 @@ public:
     bool isSymbolAddress(OperandObject* operand);
 
     uint16_t getOperandCode(OperandObject* operand);
-    bool extraBytesRequired(OperandObject* operand);
+    bool areExtraBytesRequired(OperandObject* operand);
 };
 
 

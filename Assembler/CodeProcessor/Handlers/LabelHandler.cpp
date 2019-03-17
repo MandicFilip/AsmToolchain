@@ -3,7 +3,7 @@
 //
 
 #include "LabelHandler.h"
-#include "Exceptions/LabelDefinedInNoneSectionException.h"
+#include "../Exceptions/LabelDefinedInNoneSectionException.h"
 
 LabelHandler::LabelHandler(SymbolTable* symbolTable, SectionTable* sectionTable, LocationCounter* locationCounter) :
         symbolTable(symbolTable), sectionTable(sectionTable), locationCounter(locationCounter)

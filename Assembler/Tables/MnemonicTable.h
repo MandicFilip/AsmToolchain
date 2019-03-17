@@ -7,10 +7,10 @@
 
 
 #include <string>
-#include "../CodeProcessor/OperandHandler.h"
-#include "../CodeProcessor/ZeroOperandHandler.h"
-#include "../CodeProcessor/OneOperandHandler.h"
-#include "../CodeProcessor/TwoOperandsHandler.h"
+#include "../CodeProcessor/Handlers/OperandHandler.h"
+#include "../CodeProcessor/Handlers/ZeroOperandHandler.h"
+#include "../CodeProcessor/Handlers/OneOperandHandler.h"
+#include "../CodeProcessor/Handlers/TwoOperandsHandler.h"
 
 class MnemonicTable
 {

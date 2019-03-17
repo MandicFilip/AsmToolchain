@@ -1,11 +1,17 @@
+#include <utility>
+
 //
 // Created by mandula on 9.8.18..
 //
 
 #include "DirectiveHandler.h"
-#include "Exceptions/EndDirectiveFoundException.h"
-#include "Exceptions/NegativeAlignmentException.h"
-#include "Exceptions/WrongInfoPassedToDirectiveException.h"
+#include "../Exceptions/EndDirectiveFoundException.h"
+#include "../Exceptions/NegativeAlignmentException.h"
+#include "../Exceptions/WrongInfoPassedToDirectiveException.h"
+
+const u_int16_t CHAR_SIZE = 1;
+const u_int16_t WORD_SIZE = 2;
+const u_int16_t LONG_SIZE = 4;
 
 
 DirectiveHandler::DirectiveHandler(SymbolTable* symbolTable, SectionTable* sectionTable,
@@ -15,25 +21,24 @@ DirectiveHandler::DirectiveHandler(SymbolTable* symbolTable, SectionTable* secti
 
 void DirectiveHandler::handleFirstPass(LineElements* lineElements)
 {
-    std::string directive = lineElements->getDirective();
+    const std::string& directive = lineElements->getDirective();
     if (isSymbolSection(directive)) {
-        if (lineElements->getDirectiveInfo()->size() != 0) throw WrongInfoPassedToDirectiveException();
+        if (!lineElements->getDirectiveInfo()->empty()) throw WrongInfoPassedToDirectiveException();
         sectionTable->insertSection(directive, locationCounter->getLocationCounter());
         symbolTable->defineSectionSymbol(lineElements->getDirective(), locationCounter->getLocationCounter());
         return;
     }
     if (isSymbolEnd(directive)) {
-        if (lineElements->getDirectiveInfo()->size() != 0) throw WrongInfoPassedToDirectiveException();
-        //sectionTable->notifyFileEnd(locationCounter->getLocationCounter());
+        if (!lineElements->getDirectiveInfo()->empty()) throw WrongInfoPassedToDirectiveException();
         throw EndDirectiveFoundException();
     }
 
     if (!strcmp(directive.data(), ".global")) {
         std::vector<std::string>* info = lineElements->getDirectiveInfo();
-        if (info->size() == 0) throw WrongInfoPassedToDirectiveException();
-        for (std::vector<std::string>::iterator iter = info->begin(); iter != info->end(); ++iter) {
-            if (!isSymbol(*iter)) throw WrongInfoPassedToDirectiveException();
-            symbolTable->declareGlobalSymbol(*iter);
+        if (info->empty()) throw WrongInfoPassedToDirectiveException();
+        for (auto& iter : *info) {
+            if (!isSymbol(iter)) throw WrongInfoPassedToDirectiveException();
+            symbolTable->declareGlobalSymbol(iter);
         }
 
     }
@@ -64,24 +69,24 @@ void DirectiveHandler::handleFirstPass(LineElements* lineElements)
     else if (!strcmp(directive.data(), ".char")) {
         std::vector<std::string>* info = lineElements->getDirectiveInfo();
         if (info->size() != 1) throw WrongInfoPassedToDirectiveException();
-        locationCounter->moveLocationCounter(1);
+        locationCounter->moveLocationCounter(CHAR_SIZE);
     }
     else if (!strcmp(directive.data(), ".word")) {
         std::vector<std::string>* info = lineElements->getDirectiveInfo();
         if (info->size() != 1) throw WrongInfoPassedToDirectiveException();
-        locationCounter->moveLocationCounter(2);
+        locationCounter->moveLocationCounter(WORD_SIZE);
     }
     else if (!strcmp(directive.data(), ".long")) {
         std::vector<std::string>* info = lineElements->getDirectiveInfo();
         if (info->size() != 1) throw WrongInfoPassedToDirectiveException();
-        locationCounter->moveLocationCounter(4);
+        locationCounter->moveLocationCounter(LONG_SIZE);
     }
     else throw WrongInfoPassedToDirectiveException();
 }
 
 void DirectiveHandler::handleSecondPass(LineElements* lineElements)
 {
-    std::string directive = lineElements->getDirective();
+    const std::string& directive = lineElements->getDirective();
     if (isSymbolSection(directive)) {
         codeGenerator->changeSection(directive);
         sectionTable->enterNextSection();
@@ -108,7 +113,7 @@ void DirectiveHandler::handleSecondPass(LineElements* lineElements)
 
         if (!strcmp(sectionTable->getCurrentSection().data(), "UND")) {
             for (int i = 0; i < alignment / 2; ++i) {
-                codeGenerator->generateWord(0);
+                codeGenerator->generateWord(0); //0 - dummy data
             }
         }
     }
@@ -119,7 +124,7 @@ void DirectiveHandler::handleSecondPass(LineElements* lineElements)
         locationCounter->moveLocationCounter(offset);
 
         for (int i = 0; i < offset; ++i) {
-            codeGenerator->generateByte(0);
+            codeGenerator->generateByte(0); //0 - dummy data
         }
     }
     else if (!strcmp(directive.data(), ".char")) {
@@ -133,7 +138,7 @@ void DirectiveHandler::handleSecondPass(LineElements* lineElements)
         else {
             std::string symbol = info->front();
             if (isSymbol(symbol)) {
-                numValue = handleSymbolForMemoryInitialization(symbol);
+                numValue = static_cast<char>(handleSymbolForMemoryInitialization(symbol));
             }
             else throw WrongInfoPassedToDirectiveException();
         }
@@ -212,10 +217,10 @@ int32_t DirectiveHandler::calcValue(std::string symbol)
 
     int32_t ret = 0;
     if (isDec) {
-        ret = static_cast<uint16_t>(atoi(symbol.data()));
+        ret = static_cast<uint16_t>(strtol(symbol.data(), NULL, 10));
     }
     else {
-        ret = static_cast<uint16_t>(strtol(symbol.data(), NULL, 16));
+        ret = static_cast<uint16_t>(strtol(symbol.data(), NULL, 16)); //base = 16
     }
     return sign * ret;
 }
@@ -230,17 +235,17 @@ bool DirectiveHandler::isNumber(std::string symbol, long start, long end)
     }
     if ((symbol[start] == '0') && ((symbol[start + 1] == 'x') || (symbol[start + 1] == 'X'))) {
         isDec = false;
-        symbol.erase(start, 2);
+        symbol.erase(static_cast<unsigned long>(start), 2);
         end -=2;
     }
 
     if (symbol[end - 1] == 'h' || symbol[end - 1] == 'H') {
         isDec = false;
-        symbol.erase(end - 1, 1);
+        symbol.erase(static_cast<unsigned long>(end - 1), 1);
         end--;
     }
 
-    for (int i = start; i < end; ++i) {
+    for (int i = static_cast<int>(start); i < end; ++i) {
         if (!isdigit(symbol[i]) && isDec) return false;
         if (!isxdigit(symbol[i]) && !isDec) return false;
     }
@@ -250,7 +255,7 @@ bool DirectiveHandler::isNumber(std::string symbol, long start, long end)
 bool DirectiveHandler::isSymbol(std::string symbol, long start, long end)
 {
     if (!isupper(symbol[start]) && !islower(symbol[start]) && (symbol[start] != '.')) return false;
-    for (int i = start; i < end; ++i) {
+    for (int i = static_cast<int>(start); i < end; ++i) {
         if ((i == start) && (symbol[i] == '.')) continue;
         if (!(isdigit(symbol[i]) || isupper(symbol[i]) || islower(symbol[i]))) return false;
     }
@@ -259,7 +264,7 @@ bool DirectiveHandler::isSymbol(std::string symbol, long start, long end)
 
 uint16_t DirectiveHandler::handleSymbolForMemoryInitialization(std::string symbol)
 {
-    SymbolTable::SymbolInfo symbolInfo = symbolTable->getSymbol(symbol);
+    SymbolTable::SymbolInfo symbolInfo = symbolTable->getSymbol(std::move(symbol));
     uint16_t numValue;
     uint16_t symbolToBound;
     if (symbolInfo.global) {

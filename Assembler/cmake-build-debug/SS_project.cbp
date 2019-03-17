@@ -8,38 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug"/>
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug"/>
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SS_project">
-				<Option output="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug/SS_project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug"/>
+				<Option output="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug/SS_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 SS_project"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 SS_project"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SS_project/fast">
-				<Option output="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug/SS_project" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/cmake-build-debug"/>
+				<Option output="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug/SS_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,212 +67,222 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 SS_project/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/SS\ project/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 SS_project/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mandula/CLionProjects/Sistemski\ softver/ss/Assembler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/AssemblerManager.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/AssemblerManager.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/AssemblerManager.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/AssemblerManager.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/CodeGenerator.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/CodeGenerator.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/CodeGenerator.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/DirectiveHandler.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/AsmException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/DirectiveHandler.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/BadDstOperandException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/AsmException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/BadInstructionSizeError.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/BadDstOperandException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/EndDirectiveFoundException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/BadInstructionSizeError.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/FailToCreateObjFileException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/EndDirectiveFoundException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/LCOverflowException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/FailToCreateObjFileException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/LabelDefinedInNoneSectionException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/LCOverflowException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/NegativeAlignmentException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/LabelDefinedInNoneSectionException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Exceptions/WrongInfoPassedToDirectiveException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/NegativeAlignmentException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/DirectiveHandler.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/Exceptions/WrongInfoPassedToDirectiveException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/DirectiveHandler.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LabelHandler.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/LabelHandler.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LabelHandler.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/LabelHandler.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/OneOperandHandler.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/LocationCounter.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/OneOperandHandler.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OneOperandHandler.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/OperandHandler.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OneOperandHandler.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/OperandHandler.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/TwoOperandsHandler.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/OperandHandler.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/TwoOperandsHandler.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/TwoOperandsHandler.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/ZeroOperandHandler.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/TwoOperandsHandler.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/Handlers/ZeroOperandHandler.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/ZeroOperandHandler.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/LocationCounter.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CodeProcessor/ZeroOperandHandler.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CodeProcessor/LocationCounter.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CommonTypes/CommonTypeWrappers.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CommonTypes/CommonTypeWrappers.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/LineDecoder.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/LineDecoder.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/LineDecoder.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/LineDecoder.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/OperandParser.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/OperandParser.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/OperandParser.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/OperandParser.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/Parser.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/Parser.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/Parser.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/Parser.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserErrors/BadOperandError.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserErrors/BadOperandError.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserErrors/FileNotFoundError.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserErrors/FileNotFoundError.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserErrors/ParserError.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserErrors/ParserError.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserErrors/TooManyOperandsError.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserErrors/TooManyOperandsError.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserErrors/UnknownSymbolFound.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserErrors/UnknownSymbolFound.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserErrors/WrongSymbolFoundError.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserErrors/WrongSymbolFoundError.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserExceptions/EndOfFileException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserExceptions/EndOfFileException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserExceptions/LineEndException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserExceptions/LineEndException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserExceptions/doOperandJob.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserExceptions/doOperandJob.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserState.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserState.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Parser/ParserState.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Parser/ParserState.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/ConditionTable.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/ConditionTable.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/ConditionTable.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/ConditionTable.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/BadConditionIdentifierException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/BadConditionIdentifierException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/BadOperationCodeException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/BadOperationCodeException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/MissingSymbolException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/MissingSymbolException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/NoneSectionException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/NoneSectionException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/SectionAlreadyDefinedException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/SectionAlreadyDefinedException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/SymbolAlreadyDefinedException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/SymbolAlreadyDefinedException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/TableException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/TableException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/Exceptions/WrongSymbolThatRepresentsSectionException.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/Exceptions/WrongSymbolThatRepresentsSectionException.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/MnemonicTable.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/MnemonicTable.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/MnemonicTable.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/MnemonicTable.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/SectionTable.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SectionTable.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/SectionTable.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/SymbolTable.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/Tables/SymbolTable.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/Tables/SymbolTable.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/TransferObjects/LineElements.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/LineElements.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/TransferObjects/LineElements.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/OperandObject.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/TransferObjects/OperandObject.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/TransferObjects/OperandObject.h">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/TransferObjects/OperandObject.h">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/main.cpp">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/main.cpp">
 			<Option target="SS_project"/>
 		</Unit>
-		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/SS project/Assembler/CMakeLists.txt">
+		<Unit filename="/home/mandula/CLionProjects/Sistemski softver/ss/Assembler/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

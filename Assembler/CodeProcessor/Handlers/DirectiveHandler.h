@@ -6,11 +6,11 @@
 #define SS_PROJECT_DIRECTIVEHANDLER_H
 
 
-#include "../TransferObjects/LineElements.h"
-#include "../Tables/SymbolTable.h"
-#include "../Tables/SectionTable.h"
-#include "LocationCounter.h"
-#include "CodeGenerator.h"
+#include "../../TransferObjects/LineElements.h"
+#include "../../Tables/SymbolTable.h"
+#include "../../Tables/SectionTable.h"
+#include "../LocationCounter.h"
+#include "../CodeGenerator.h"
 
 class DirectiveHandler
 {

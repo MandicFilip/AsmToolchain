@@ -3,7 +3,7 @@
 //
 
 #include "OperandHandler.h"
-#include "../Tables/MnemonicTable.h"
+#include "../../Tables/MnemonicTable.h"
 
 OperandHandler::OperandHandler(LocationCounter* locationCounterTracer, SymbolTable* symbolTable,
                                SectionTable* sectionTable, CodeGenerator* codeGenerator, ConditionTable* conditionTable)
@@ -110,7 +110,7 @@ uint16_t OperandHandler::getOperandCode(OperandObject* operand)
     return operandCode;
 }
 
-bool OperandHandler::extraBytesRequired(OperandObject* operand)
+bool OperandHandler::areExtraBytesRequired(OperandObject* operand)
 {
     AddressType type = operand->type;
     return !((type == psw) || ((type == regDir)));

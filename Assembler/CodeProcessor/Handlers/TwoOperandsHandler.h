@@ -6,7 +6,7 @@
 #define SS_PROJECT_TWOOPERANDSHANDLER_H
 
 
-#include "../TransferObjects/OperandObject.h"
+#include "../../TransferObjects/OperandObject.h"
 #include "OperandHandler.h"
 
 class TwoOperandsHandler : public OperandHandler

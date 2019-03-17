@@ -6,7 +6,7 @@
 #include <algorithm>
 #include "MnemonicTable.h"
 #include "Exceptions/BadOperationCodeException.h"
-#include "../CodeProcessor/ZeroOperandHandler.h"
+#include "../CodeProcessor/Handlers/ZeroOperandHandler.h"
 
 MnemonicTable::MnemonicTable(ZeroOperandHandler* zeroHandler, OneOperandHandler* oneHandler, TwoOperandsHandler* twoHandler)
 {
@@ -58,7 +58,7 @@ uint16_t MnemonicTable::getMnemonicCode(std::string symbol)
 {
     std::transform(symbol.begin(), symbol.end(), symbol.begin(), ::tolower);
     for (int i = 0; i < MNEMONIC_TABLE_SIZE; ++i) {
-        if (!strcmp(symbol.data(), mnemonicDictionary[i].data())) return i;
+        if (!strcmp(symbol.data(), mnemonicDictionary[i].data())) return static_cast<uint16_t>(i);
     }
     throw BadOperationCodeException();
 }

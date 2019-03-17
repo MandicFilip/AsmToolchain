@@ -4,7 +4,7 @@
 
 #include <algorithm>
 #include "ZeroOperandHandler.h"
-#include "../Tables/MnemonicTable.h"
+#include "../../Tables/MnemonicTable.h"
 
 ZeroOperandHandler::ZeroOperandHandler(LocationCounter* locationCounterTracer, SymbolTable* symbolTable,
                                        SectionTable* sectionTable, CodeGenerator* codeGenerator,
@@ -15,7 +15,7 @@ ZeroOperandHandler::ZeroOperandHandler(LocationCounter* locationCounterTracer, S
 
 void ZeroOperandHandler::firstPassHandleOperand(LineElements* lineElements)
 {
-    locationCounter->moveLocationCounter(2);
+    locationCounter->moveLocationCounter(SMALL_INSTRUCTION_SIZE);
 }
 
 void ZeroOperandHandler::secondPassHandleOperand(LineElements* lineElements)
@@ -39,5 +39,5 @@ void ZeroOperandHandler::secondPassHandleOperand(LineElements* lineElements)
         code = getOpAndConditionCode(opCode, condition);
     }
     codeGenerator->generateLineOfCode(code, 0, false);
-    locationCounter->moveLocationCounter(2);
+    locationCounter->moveLocationCounter(SMALL_INSTRUCTION_SIZE);
 }

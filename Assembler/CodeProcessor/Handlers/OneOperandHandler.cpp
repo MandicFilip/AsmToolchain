@@ -4,9 +4,8 @@
 
 #include <algorithm>
 #include "OneOperandHandler.h"
-#include "Exceptions/BadDstOperandException.h"
-#include "../Tables/MnemonicTable.h"
-
+#include "../Exceptions/BadDstOperandException.h"
+#include "../../Tables/MnemonicTable.h"
 
 OneOperandHandler::OneOperandHandler(LocationCounter* locationCounterTracer, SymbolTable* symbolTable,
                                      SectionTable* sectionTable, CodeGenerator* codeGenerator,
@@ -57,13 +56,13 @@ void OneOperandHandler::secondPassHandleOperand(LineElements* lineElements)
 
         uint16_t extraWord = 0;
         bool hasExtraWord = false;
-        if (extraBytesRequired((lineElements->getSrc()))) {
+        if (areExtraBytesRequired((lineElements->getSrc()))) {
             if (isSymbolAddress(operand)) extraWord = createReallocationRecord(operand);
             else extraWord = static_cast<uint16_t>(operand->numValue);
             hasExtraWord = true;
-            locationCounter->moveLocationCounter(4);
+            locationCounter->moveLocationCounter(LARGE_INSTRUCTION_SIZE);
         }
-        else locationCounter->moveLocationCounter(2);
+        else locationCounter->moveLocationCounter(SMALL_INSTRUCTION_SIZE);
         codeGenerator->generateLineOfCode(code, extraWord, hasExtraWord);
     }
     else {
@@ -80,13 +79,13 @@ void OneOperandHandler::secondPassHandleOperand(LineElements* lineElements)
 
         bool hasExtraWord = false;
         uint16_t extraWord = 0;
-        if (extraBytesRequired(operand)) {
+        if (areExtraBytesRequired(operand)) {
             if (isSymbolAddress(operand)) extraWord = createReallocationRecord(operand);
             else extraWord = static_cast<uint16_t>(operand->numValue);
             hasExtraWord = true;
-            locationCounter->moveLocationCounter(4);
+            locationCounter->moveLocationCounter(LARGE_INSTRUCTION_SIZE);
         }
-        else locationCounter->moveLocationCounter(2);
+        else locationCounter->moveLocationCounter(SMALL_INSTRUCTION_SIZE);
         codeGenerator->generateLineOfCode(code, extraWord, hasExtraWord);
     }
 

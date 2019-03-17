@@ -7,10 +7,10 @@
 
 
 #include <string>
-#include "../CommonTypes/CommonTypeWrappers.h"
-#include "../Tables/SymbolTable.h"
-#include "LocationCounter.h"
-#include "../Tables/SectionTable.h"
+#include "../../CommonTypes/CommonTypeWrappers.h"
+#include "../../Tables/SymbolTable.h"
+#include "../LocationCounter.h"
+#include "../../Tables/SectionTable.h"
 
 class LabelHandler
 {

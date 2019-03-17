@@ -4,9 +4,9 @@
 
 #include <algorithm>
 #include "TwoOperandsHandler.h"
-#include "Exceptions/BadDstOperandException.h"
-#include "Exceptions/BadInstructionSizeError.h"
-#include "../Tables/MnemonicTable.h"
+#include "../Exceptions/BadDstOperandException.h"
+#include "../Exceptions/BadInstructionSizeError.h"
+#include "../../Tables/MnemonicTable.h"
 
 
 
@@ -49,22 +49,22 @@ void TwoOperandsHandler::secondPassHandleOperand(LineElements* lineElements)
     code |= (operandCode << shiftDstBits);
     uint16_t extraWord;
     bool hasExtraWord = false;
-    if (extraBytesRequired(operand)) {
+    if (areExtraBytesRequired(operand)) {
         if (isSymbolAddress(operand)) extraWord = createReallocationRecord(operand);
         else extraWord = static_cast<uint16_t>(operand->numValue);
         hasExtraWord = true;
-        locationCounter->moveLocationCounter(4);
+        locationCounter->moveLocationCounter(LARGE_INSTRUCTION_SIZE);
     }
 
     operand = lineElements->getSrc();
     operandCode = getOperandCode(operand);
     code |= operandCode;
-    if (extraBytesRequired(operand)) {
+    if (areExtraBytesRequired(operand)) {
         if (isSymbolAddress(operand)) extraWord = createReallocationRecord(operand);
         else extraWord = static_cast<uint16_t>(operand->numValue);
         hasExtraWord = true;
     }
-    if (hasExtraWord) locationCounter->moveLocationCounter(4);
-    else locationCounter->moveLocationCounter(2);
+    if (hasExtraWord) locationCounter->moveLocationCounter(LARGE_INSTRUCTION_SIZE);
+    else locationCounter->moveLocationCounter(SMALL_INSTRUCTION_SIZE);
     codeGenerator->generateLineOfCode(code, extraWord, hasExtraWord);
 }

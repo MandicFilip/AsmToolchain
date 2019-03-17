@@ -12,8 +12,8 @@
 #include "../Tables/SectionTable.h"
 #include "../Tables/MnemonicTable.h"
 #include "../Tables/ConditionTable.h"
-#include "LabelHandler.h"
-#include "DirectiveHandler.h"
+#include "Handlers/LabelHandler.h"
+#include "Handlers/DirectiveHandler.h"
 #include "CodeGenerator.h"
 
 class AssemblerManager
